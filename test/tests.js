@@ -1,20 +1,22 @@
 'use strict';
 
-const should = require('should');
+const chai = require('chai');
 const isPlainObj = require('is-plain-obj');
 const config = require('./../index.js');
 const lint = require('./helper/testHelper.js');
 
+const should = chai.should();
+
 describe('npm-package-json-lint config tests', () => {
   context('npm-package-json-lint config object', () => {
     it('should be an object', () => {
-      isPlainObj(config).should.equal(true);
+      isPlainObj(config).should.be.true;
     });
   });
 
   context('rules', () => {
     it('should be an object', () => {
-      isPlainObj(config.rules).should.equal(true);
+      isPlainObj(config.rules).should.be.true;
     });
   });
 
@@ -27,7 +29,7 @@ describe('npm-package-json-lint config tests', () => {
       const expectedErrorCount = 14;
 
       results.errors.length.should.equal(expectedErrorCount);
-      results.hasOwnProperty('warnings').should.be.false();
+      results.hasOwnProperty('warnings').should.be.false;
     });
   });
 });

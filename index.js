@@ -29,12 +29,8 @@ const config = {
     'repository-type': 'error',
     'scripts-type': 'error',
     'version-type': 'error',
-    'valid-values-author': ['error', [
-      'Thomas Lindner'
-    ]],
-    'valid-values-private': ['error', [
-      false
-    ]],
+    'valid-values-author': ['error', ['Thomas Lindner']],
+    'valid-values-private': ['error', [false]],
     'prefer-no-version-zero-dependencies': 'warning',
     'prefer-caret-version-dependencies': 'error',
     'prefer-no-version-zero-devDependencies': 'warning',

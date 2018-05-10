@@ -25,7 +25,7 @@
   "scripts": {
     "eslint": "eslint *.js --format=node_modules/eslint-formatter-pretty",
     "lint": "npm run npmpackagejsonlint && npm run eslint",
-    "npmpackagejsonlint": "pjl-cli -c .npmpackagejsonlintrc.json",
+    "npmpackagejsonlint": "npmPkgJsonLint .",
     "test": "mocha"
   },
   "devDependencies": {

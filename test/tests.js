@@ -25,7 +25,7 @@ describe('npm-package-json-lint config tests', () => {
       const packageJsonData = {
         author: 'Caitlin Snow'
       };
-      const results = lint(packageJsonData, config);
+      const results = lint(packageJsonData, conficonfig.rulesg);
       const expectedErrorCount = 14;
 
       results.errors.length.should.equal(expectedErrorCount);

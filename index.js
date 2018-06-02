@@ -1,5 +1,7 @@
 'use strict';
 
+/* eslint array-bracket-newline: 'off' */
+
 const config = {
   rules: {
     'require-author': 'error',
@@ -30,6 +32,12 @@ const config = {
     'scripts-type': 'error',
     'version-type': 'error',
     'valid-values-author': ['error', ['Thomas Lindner']],
+    'valid-values-engines': ['error', [
+      {
+        node: '>=6.0.0',
+        npm: '>=3.0.0'
+      }
+    ]],
     'valid-values-private': ['error', [false]],
     'prefer-no-version-zero-dependencies': 'warning',
     'prefer-caret-version-dependencies': 'error',

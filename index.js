@@ -1,5 +1,7 @@
 'use strict';
 
+/* eslint array-bracket-newline: 'off' */
+
 const config = {
   rules: {
     'require-author': 'error',

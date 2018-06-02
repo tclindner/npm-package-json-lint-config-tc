@@ -32,8 +32,8 @@ const config = {
     'valid-values-author': ['error', ['Thomas Lindner']],
     'valid-values-engines': ['error', [
       {
-        node: '^6.0.0',
-        npm: '^3.0.0'
+        node: '>=6.0.0',
+        npm: '>=3.0.0'
       }
     ]],
     'valid-values-private': ['error', [false]],

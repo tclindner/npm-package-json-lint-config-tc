@@ -1,5 +1,3 @@
-'use strict';
-
 /* eslint array-bracket-newline: 'off' */
 
 const config = {

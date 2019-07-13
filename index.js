@@ -34,6 +34,10 @@ const config = {
       {
         node: '>=6.0.0',
         npm: '>=3.0.0'
+      },
+      {
+        node: '>=8.0.0',
+        npm: '>=6.0.0'
       }
     ]],
     'valid-values-private': ['error', [false]],

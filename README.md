@@ -5,7 +5,7 @@
 
 [![license](https://img.shields.io/github/license/tclindner/npm-package-json-lint-config-tc.svg?maxAge=2592000&style=flat-square)](https://github.com/tclindner/npm-package-json-lint-config-tc/blob/master/LICENSE)
 [![npm](https://img.shields.io/npm/v/npm-package-json-lint-config-tc.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/npm-package-json-lint-config-tc)
-[![Travis](https://img.shields.io/travis/tclindner/npm-package-json-lint-config-tc.svg?maxAge=2592000?style=flat-square)](https://travis-ci.org/tclindner/npm-package-json-lint-config-tc)
+[![CircleCI](https://circleci.com/gh/tclindner/npm-package-json-lint-config-tc.svg?style=svg)](https://circleci.com/gh/tclindner/npm-package-json-lint-config-tc)
 [![Dependency Status](https://david-dm.org/tclindner/npm-package-json-lint-config-tc.svg?style=flat-square)](https://david-dm.org/tclindner/npm-package-json-lint-config-tc)
 [![devDependency Status](https://david-dm.org/tclindner/npm-package-json-lint-config-tc/dev-status.svg?style=flat-square)](https://david-dm.org/tclindner/npm-package-json-lint-config-tc#info=devDependencies)
 

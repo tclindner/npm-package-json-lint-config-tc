@@ -11,6 +11,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Removed
 
+## [3.0.0] - 2019-10-06
+- Adjust [valid-values-engines](https://github.com/tclindner/npm-package-json-lint/wiki/valid-values-engines) rule to drop Node v6.
+
 ## [2.2.0] - 2019-07-13
 - Adjust [valid-values-engines](https://github.com/tclindner/npm-package-json-lint/wiki/valid-values-engines) rule to include v8 for transition to drop node 6.
 

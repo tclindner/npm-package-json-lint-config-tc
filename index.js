@@ -40,7 +40,7 @@ const config = {
       ]
     ],
     'valid-values-private': ['error', [false]],
-    "no-repeated-dependencies": "error",
+    'no-repeated-dependencies': 'error',
     'prefer-no-version-zero-dependencies': 'warning',
     'prefer-caret-version-dependencies': 'error',
     'prefer-no-version-zero-devDependencies': 'warning',

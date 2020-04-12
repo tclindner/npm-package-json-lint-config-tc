@@ -34,10 +34,10 @@ const config = {
       'error',
       [
         {
-          node: '>=8.0.0',
-          npm: '>=6.0.0'
-        }
-      ]
+          node: '>=10.0.0',
+          npm: '>=6.0.0',
+        },
+      ],
     ],
     'valid-values-private': ['error', [false]],
     'no-repeated-dependencies': 'error',
@@ -46,8 +46,8 @@ const config = {
     'prefer-no-version-zero-devDependencies': 'warning',
     'prefer-caret-version-devDependencies': 'error',
     'name-format': 'error',
-    'version-format': 'error'
-  }
+    'version-format': 'error',
+  },
 };
 
 module.exports = config;

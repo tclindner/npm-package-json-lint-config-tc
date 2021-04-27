@@ -1,6 +1,6 @@
 {
   "name": "npm-package-json-lint-config-tc",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "npm-package-json-lint shareable config for TC's projects",
   "keywords": [
     "lint",

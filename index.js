@@ -34,10 +34,6 @@ const config = {
       'error',
       [
         {
-          node: '>=20.0.0',
-          npm: '>=10.0.0',
-        },
-        {
           node: '>=22.0.0',
           npm: '>=10.0.0',
         },
@@ -45,13 +41,14 @@ const config = {
     ],
     'valid-values-private': ['error', [false]],
     'no-repeated-dependencies': 'error',
+    'prefer-absolute-version-dependencies': 'error',
+    'prefer-absolute-version-devDependencies': 'error',
     'prefer-no-version-zero-dependencies': 'warning',
-    'prefer-caret-version-dependencies': 'error',
     'prefer-no-version-zero-devDependencies': 'warning',
-    'prefer-caret-version-devDependencies': 'error',
     'name-format': 'error',
     'version-format': 'error',
   },
 };
 
+// eslint-disable-next-line unicorn/prefer-module
 module.exports = config;
